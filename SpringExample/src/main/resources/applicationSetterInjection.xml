@@ -7,7 +7,7 @@
     <!-- bean definitions here -->
     <bean id="carSpecification" class="car.example.setter.injection.Specification">
         <property name="make" value="Toyota"/>
-        <property name="model" value="Carolla"/>
+        <property name="model" value="Corolla"/>
     </bean>
 
     <bean id="myCar" class="car.example.setter.injection.Car">
