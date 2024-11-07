@@ -1,7 +1,7 @@
 package com.loose.coupling;
 
 public class UserManager {
-    UserDataProvider userDataProvider;
+    private UserDataProvider userDataProvider;
 
     public UserManager(UserDataProvider userDataProvider){
         this.userDataProvider = userDataProvider;
